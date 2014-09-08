@@ -18,6 +18,7 @@
 		618F702919BE254700ABC9DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F702819BE254700ABC9DE /* Default-568h@2x.png */; };
 		618F702C19BE254700ABC9DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F702B19BE254700ABC9DE /* ViewController.m */; };
 		618F702F19BE254700ABC9DE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F702D19BE254700ABC9DE /* ViewController.xib */; };
+		618F703819BE25AC00ABC9DE /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F703719BE25AC00ABC9DE /* Contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		618F702A19BE254700ABC9DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		618F702B19BE254700ABC9DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		618F702E19BE254700ABC9DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		618F703619BE25AC00ABC9DE /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		618F703719BE25AC00ABC9DE /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		618F701819BE254700ABC9DE /* BusinessDiary */ = {
 			isa = PBXGroup;
 			children = (
+				618F703519BE258700ABC9DE /* Models */,
 				618F702119BE254700ABC9DE /* AppDelegate.h */,
 				618F702219BE254700ABC9DE /* AppDelegate.m */,
 				618F702A19BE254700ABC9DE /* ViewController.h */,
@@ -105,6 +109,15 @@
 				618F702819BE254700ABC9DE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		618F703519BE258700ABC9DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				618F703619BE25AC00ABC9DE /* Contact.h */,
+				618F703719BE25AC00ABC9DE /* Contact.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,7 @@
 				618F701F19BE254700ABC9DE /* main.m in Sources */,
 				618F702319BE254700ABC9DE /* AppDelegate.m in Sources */,
 				618F702C19BE254700ABC9DE /* ViewController.m in Sources */,
+				618F703819BE25AC00ABC9DE /* Contact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
